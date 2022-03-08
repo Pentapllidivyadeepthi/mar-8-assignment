@@ -1,0 +1,10 @@
+# mar-8-assignment
+x=input ()
+x=x.lower()
+c=0
+for i in x:
+     if i=='a' or i=='e' or i=='i' or i=='o' or i=='u' :
+        continue
+     else: 
+        c=c+1
+print('no of constants',c)
